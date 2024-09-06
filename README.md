@@ -112,4 +112,4 @@ num_iterations = 40; % Number of iterations for PGD
 
 ## Contact
 
-For any questions or issues with the code, please feel free to reach out via the Issues section of this repository.
+For any questions or feedback, please contact [Rajarshi Nandi](https://www.linkedin.com/in/rajarshi-nandi-a77aa5214/) at [mm23rn.leeds.ac.uk](mm23rn.leeds.ac.uk).
