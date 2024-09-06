@@ -1,9 +1,4 @@
 # Enhancing-Neural-Network-Robustness-using-Hybrid-Adversarial-Training
-Here is a sample README for your GitHub repository:
-
----
-
-# Neural Network Robustness Experiments
 
 This repository contains all the code scripts used in the dissertation for evaluating the robustness of neural networks against adversarial attacks. The experiments involve training and testing a ResNet-18 model on the CIFAR-10 dataset using three different methodologies: 
 
@@ -118,7 +113,3 @@ num_iterations = 40; % Number of iterations for PGD
 ## Contact
 
 For any questions or issues with the code, please feel free to reach out via the Issues section of this repository.
-
----
-
-This README file provides a clear overview of the structure, results, and instructions for running the scripts in your GitHub repository.
