@@ -24,7 +24,7 @@ The project involve training and testing a ResNet-18 mode using three different 
 
 ### Data
 
-The project was carried out in MATLAB R2022a and the dataset used for training and validation of is [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html).
+The project was carried out in MATLAB R2022a and the dataset used for training and validation is [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html).
 
 ### Requirements
 
