@@ -194,6 +194,8 @@ Grad-CAM output for all models
 
 Special thanks to [@luisacutillo78](https://github.com/luisacutillo78) & [@mikecroucher](https://github.com/mikecroucher) for their valuable feedback, guidance and support.
 
+This work was undertaken on ARC4, part of the High Performance Computing facilities at the University of Leeds, UK.
+
 ## Contact
 
 For any questions or feedback, please contact [Rajarshi Nandi](https://www.linkedin.com/in/rajarshi-nandi-a77aa5214/) at [mm23rn.leeds.ac.uk](mm23rn.leeds.ac.uk).
