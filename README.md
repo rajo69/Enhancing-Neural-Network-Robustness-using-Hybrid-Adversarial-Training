@@ -22,6 +22,12 @@ The project involve training and testing a ResNet-18 mode using three different 
 
 ## Experiments
 
+### Model Architecture
+
+The model architecture is based on ResNet-18, which uses residual blocks with shortcut connections to enable efficient learning in deeper networks. Part (a) in the figure illustrates the stacked convolutional layers, with shortcut connections (red arrows) bypassing each block to prevent vanishing gradients. Part (b) shows the residual block structure, where the input \( X \) is added back to the transformed output \( F(X) \), resulting in \( F(X) + X \). This design allows for faster convergence and improved performance.
+
+![resnet_18_architecture](https://github.com/user-attachments/assets/51cc382b-ef0b-4d43-9ddd-ccb3c3144512)
+
 ### Data
 
 The project was carried out in MATLAB R2022a and the dataset used for training and validation is [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html).
