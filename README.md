@@ -153,16 +153,16 @@ num_iterations = 40; % Number of iterations for PGD
 
 ### Result Visaulization
 
-![norm_acc_comp](https://github.com/user-attachments/assets/29f3f85f-dc50-42e9-b2db-59c7db64fbdc)
+![norm_acc_comp](https://github.com/user-attachments/assets/bfcd9bb5-1bed-441f-b531-1c7df744829d)
 Validation accuracy of all models on normal data.
 
-![comparative_adversarial_accuracy](https://github.com/user-attachments/assets/6a21f674-d9b8-4e83-b897-a8bfa9faa863)
+![comparative_adversarial_accuracy](https://github.com/user-attachments/assets/72c09d2b-7750-4f82-82a4-06310fa8941e)
 Validation accuracy of all models on progressively stronger adversarial (FGSM) data.
 
-![pgd_attack_comparison_final](https://github.com/user-attachments/assets/852ef8c0-6e50-4df8-8502-f6be57bb73f1)
+![pgd_attack_comparison](https://github.com/user-attachments/assets/61cc394b-6fef-41a8-b3ee-8020a9de6f71)
 Validation accuracy of all models on adversarial (PGD) data.
 
-![grad_cam_op_all](https://github.com/user-attachments/assets/07294c07-2cde-493b-9399-040891b48204)
+![grad_cam_op_all](https://github.com/user-attachments/assets/333ac9d0-ab0f-4568-9561-018ea0f2ef02)
 Grad-CAM output for all models
 
 ## Key Findings from the Experiments
