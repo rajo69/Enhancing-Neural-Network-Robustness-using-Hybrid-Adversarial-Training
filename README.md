@@ -56,6 +56,9 @@ To run these scripts, you need MATLAB R2022a or later installed, along with the 
 │   ├── test_normal_v3.m           # Testing script on normal data (v3)
 │   ├── test_fgsm_v3.m             # Testing script against FGSM adversarial data (v3)
 │   ├── test_pgd_v3.m              # Testing script against PGD adversarial data (v3)
+├── pytorch_conversion
+│   ├── export_resnet18_to_onnx.m  # Exporting weights and architecture of models to ONNX runtime
+│   ├── convert_onnx_to_pytorch.py # Exporting ONNX runtime format to PyTorch
 └── README.md                      # This README file
 ```
 
@@ -134,7 +137,7 @@ export_resnet18_to_onnx.m
 ``` 
 This generates ONNX files for all trained models.
 
-2️⃣ Convert ONNX to PyTorch
+Convert ONNX to PyTorch
 Install dependencies:
 
 ```python
