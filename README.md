@@ -115,6 +115,40 @@ train_resnet_18_v1.m
 
 This script will train the ResNet-18 model on the CIFAR-10 dataset. The trained model will be saved as `resnet_18_v1.mat`.
 
+### Model Conversion (MATLAB → PyTorch)
+
+The ResNet-18 models in this project were originally trained using MATLAB Deep Learning Toolbox. To enable cross-platform inference and integration with modern ML workflows, the trained models are converted to PyTorch using an ONNX-based pipeline.
+
+#### Conversion Workflow
+
+MATLAB (.mat) → ONNX (.onnx) → PyTorch (.pth)
+
+#### Steps
+
+##### Export MATLAB models to ONNX
+
+Run the MATLAB script:
+
+```matlab
+export_resnet18_to_onnx.m
+``` 
+This generates ONNX files for all trained models.
+
+2️⃣ Convert ONNX to PyTorch
+Install dependencies:
+
+```python
+pip install torch torchvision onnx onnxruntime onnx2pytorch
+```
+
+Run the conversion script:
+
+```python
+python convert_onnx_to_pytorch.py
+```
+
+This produces PyTorch .pth files for inference.
+
 ### Testing the Models on Normal Data
 
 To test the model on normal, unperturbed CIFAR-10 data, use the following script after training:
